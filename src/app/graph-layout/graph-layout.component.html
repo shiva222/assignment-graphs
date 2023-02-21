@@ -1,0 +1,9 @@
+<div style="display: block;">
+    <canvas *ngIf="data.length>0" baseChart width="1400" height="700"
+      [type]="'line'"
+      [data]="lineChartData"
+      [options]="lineChartOptions"
+      [legend]="lineChartLegend">
+    </canvas>
+  </div>
+  
